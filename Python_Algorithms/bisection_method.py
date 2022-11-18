@@ -12,7 +12,7 @@ def f(x):
     f = np.exp(x)*np.log(x)-x*x
     return f
 # Get the initial guesses
-a, b = 1.0, 2.0
+a, b = 0.01, 2.0
 
 dx = abs(b-a)
 
